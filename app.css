@@ -1,0 +1,33 @@
+body{
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  background-color: purple;
+  color: white;
+}
+
+
+
+#title, #description{
+  text-align: center;
+}
+#description{
+  font-style: italic;
+}
+label{
+  display: block;
+  margin-bottom: 5px;
+}
+textarea, select{
+  width: 100%;
+}
+
+.form-control{
+  margin-bottom: 15px;
+}
+
+#survey-form{
+  border: solid 1px;
+  padding: 20px;
+  background-color: darkblue;
+}
